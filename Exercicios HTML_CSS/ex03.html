@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- Sempre use a linha acima , ela informa ao navegador qual linguagem 
+
+- A tag html abaixo, inicia o código HTML. -->
+<html>    
+    <!-- A tag head contém informações sobre seu documento HTML. -->
+<head>
+    <!-- A taga meta é usada para definir a codificação do caractere. -->
+<meta charset="utf-8">
+    <!-- A tag title representa o que você lê na tab do seu browser. -->
+<title>Básico HTML5</title>
+</head>     
+    
+    <!-- A tag body representa o conteúdo da sua página HTML. Se desejar alterar a cor de fundo da sua página, 
+use <body style- "background-color:<cor> -->
+<body>
+    <h1>Básico de HTML5</h1>
+    <h2>#### Títulos ####</h2>
+    
+    <!-- Para indicar um título, use a tag h1 até h6.Sendo que quanto menor o número do h, maior o tamanho da fonte. -->
+    <h1>Este é meu título H1</h1>
+    <h2>Este é meu título H2</h2>
+    <h3>Este é meu título H3</h3>
+    <h4>Este é meu título H4</h4>
+    <h5>Este é meu título H5</h5>
+    <h6>Este é meu título H6</h6>
+    
+    <h2>#### Parágrafos ####</h2>
+    
+    <!-- Para escrever um texto, use a tag p, que significa paragraph. -->
+<p>Este é meu primeiro parágrafo. Este é meu primeiro parágrafo.Este é meu primeiro parágrafo.
+    Este é meu primeiro parágrafo.</p>
+    
+    <h2>#### Link ####</h2>
+<!-- Para inserir um link, use a tag a. -->
+<a href="https://www.usp.br">Meu trabalho</a>    
+<!-- Para inserir imagens, use a tag img (ela pode ser fechada na mesma linha, usando '/>') -->
+<img src="the scream.jpg" width="220" height="227" alt="The Scream">
+    
+    <h2>#### Está é uma lista não ordenada ####</h2>
+<!-- Para inserir uma lista não ordenada, use as tags ul (para a lista) e li (para os itens).A lista não ordenada insere um bullet point
+antes dos itens da lista. -->
+    
+    <ul>
+        <li>Este é meu primeiro item</li>
+        <li>Este é meu segundo item</li>
+        <li>Este é meu terceiro item</li>
+        <li>Este é meu quarto item</li>
+    </ul>
+    
+    <h2>#### Essa é uma lista ordenada ####</h2>    
+    <!-- Para inserir uma lista ordenada, use as tags ol (para a lista) e li (para os itens). A lista ordenada numera os itens da lista. -->
+    <ol>
+        <li>Este é meu primeiro item</li>
+        <li>Este é meu segundo item</li>
+        <li>Este é meu terceiro item</li>
+        <li>Este é meu quarto item</li>    
+    </ol>
+    
+    <h2>#### Lista dentro de listas ####</h2>
+<!-- Para inserir listas dentro de listas (ordenadas ou não), basta usar as duas tags anteriores da seguinte forma: -->
+<ol>
+    <li>Este é o item 1
+<ul>
+    <li>Este é o item 1.1</li>
+    <li>Este é o item 1.2</li>
+</ul>
+</li>    
+    <li>este é o item 2
+<ul>
+    <li>Este é o item 2.1</li>
+    <li>Este é o item 2.2</li>
+</ul>   
+</li>
+</ol>    
+    
+    <h2>#### Alinhando o texto ####</h2>
+<!-- Para alinhar o texto apensa usando HTML, use o parâmetro style="textalign:<center/left/right>" -->
+    <p style="text-align: right">Texto alinhado a direita</p>
+    <p style="text-align: center">Texto centralizado</p>
+    <p style="text-align: left">Texto alinhado a esquerda</p>
+    
+    <h2>#### Texto em negrito e itálico ####</h2>
+    
+    <!-- Para usar negrito, use a tag <strong>. Para usar itálico, use a tag <em> -->
+    <p>A última palavra está em <strong>negrito</strong></p>
+    <p>A última palavra está em <em>itálico</em></p>
+    
+    <h2>#### Alterando o tamanho da fonte ####</h2>
+<!-- Para alterar o tamanho da fonte dos parágrafos apenas usando HTML, use o parâmentro style="font-size:<tamanho>px" -->
+    <p style="font-size: 10px">Parágrafo com tamanho de 10 px.</p>
+    <p style="font-size: 15">Parágrafo com tamanho de 15 px.</p>
+    <p style="font-size: 20px">Parágrafo com tamanho de 20 px.</p>
+    
+    <h2>#### Alterando a fonte ####</h2>
+    <!-- Para alterar a fonte apensa usando HTML, use o parâmetro style="font-family: <fonte>" -->
+    <h3 style="font-family: Verdana">Título H3 - Verdana</h3>
+    <p style="font-family: Impact">Parágrafo - Impact.</p>
+    <p style="font-family: Aria; font-size: 15px; color: blue">Parágrafo - Arial - Azul, 15px</p>
+    
+    
+    <h2>#### Alterando a cor da fonte ####</h2>
+<!-- Para alterar a cor da fonte apensa usando HTML, use o parâmetro style="color:<cor>" -->
+    <h3 style="color:red">Título h3 em vermelho.</h3>
+    <p style="color: blue">Parágrafo em azul.</p>
+    <!-- As cores podem ser usadas em formato hexadecimal, pois dessa forma há mais variedades. -->
+    <p style="color:#006400">Parágrafo em verde escuro.</p>
+    <!-- Também podem ser usados dois parâmetros ao mesmo tempo. Por exemplo, cor e tamanho. -->
+    <p style="color:#8b4513; font-size: 20px">  Parágrafo em marrom, com tamanho de 20px</p>
+    
+    
+    
+        <h2>#### Alterando a cor de fundo de um título, parágrafo e lista ####</h2>
+    <!-- Para alterar a cor de fundo apensa usando HTML, use o parâmetro style="background-color:<cor>" -->
+    <h3 style="background-color: blue">Título com fundo azul</h3>
+    <p style="background-color: green">Parágrafo com fundo verde</p>
+    <ul style="background-color: #FFD700">
+        <li>Este é meu primeiro item</li>
+        <li>Este é meu segundo item</li>
+        <li>Este é meu terceiro item</li>
+        <li>Este é meu quarto item</li>    
+    </ul>
+    
+    <!-- Para alterar a cor de fundo da página inteira, basta adicionar o parâmetro style="background-color:<cor>" dentro da tag body. -->
+    
+        <h2>#### Tabela ####</h2>
+    <!-- Tag table inicia uma nova tabela. Parâmetro border permite escolher o tamanho da borda. -->
+        <table border="1 px">
+<!-- Tag thead indica o cabeçalho da tabela -->
+    <thead>
+<!-- Tag tr inicia uma nova linha. -->
+    <tr>
+<!-- Tag th inicia uma nova coluna de cabeçalhos. Parâmetro colspan te permite mesclar quantas linhas quiser -->
+    <th colspan="2">Título da Tabela</th>
+    </tr>
+    <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+    </tr>
+    </thead>
+            
+<!-- Tag tbody indica o inicio dos dados da tabela. -->
+    <tbody>
+    <tr>
+<!-- Tag td inicia uma nova coluna de dados. -->
+    <td>Texto 1</td>
+    <td>Texto 2</td>
+    </tr>      
+    <tr>
+        <td>Texto 3</td>
+        <td>Texto 4</td>
+    </tr>
+    <tr>
+        <td>texto 5</td>    
+        <td>Texto 6</td>
+    </tr>
+    </tbody>    
+    </table>    
+    
+    </body>
+    
+
